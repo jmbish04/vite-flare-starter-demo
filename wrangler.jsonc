@@ -60,7 +60,9 @@
 
   // Observability
   "observability": {
-    "enabled": true
+    "enabled": true,
+    "traces": { "enabled": false },
+    "logs": { "enabled": true, "invocation_logs": false }
   }
 
   // Build configuration is handled by Vite (vite.config.ts)
